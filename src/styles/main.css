@@ -1,15 +1,59 @@
 body {
   background-color: #E1EFF6;
+  width: 100vw;
 }
 
-.header {
-  padding: 2rem 0 10rem;
+header {
+  padding: 2rem 1rem 4rem;
 }
 
 .header__title {
   text-align: center;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #2B50AA;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
+
+.pharmacy__name {
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: #218380;
+}
+
+.pharmacy__duty {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-top: 2rem;
+}
+
+.pharmacy__duty p {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.pharmacy__image {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.pharmacy__image img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.pharmacy__map {
+  width: 100%;
+}
+
+.pharmacy__map img {
+  width: 100%;
 }
